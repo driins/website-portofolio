@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bosstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio | Indri Windriasari</title>
+  </head>
+
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">IARI.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile section -->
+    <section class="jumbotron text-center">
+      <img src="img/profile.jpg" alt="Indri Windriasari" width="180" class="rounded-circle img-thumbnail mb-3" />
+      <h1 class="display-4 fw-bold">Indri Windriasari</h1>
+      <p class="lead">AI Engineer | IT Educator | TensorFlow Certified</p>
+      <hr class="my-4 mx-auto" style="width: 100px; border-top: 3px solid #333" />
+    </section>
+
+    <!-- projects section -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="fw-bold">Latest Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="img/project1.png" class="card-img-top" alt="ECommerce Project" />
+              <div class="card-body">
+                <h5 class="fw-bold">
+                  <a href="https://github.com/driins/data-portofolio/tree/main/projects/01-integrated-e-commerce-dashboard" target="_blank" class="stretched-link text-decoration-none text-dark"> E-commerce Sales Dashboard </a>
+                </h5>
+                <p class="card-text text-muted">Dashboard interaktif untuk analisis penjualan multi-marketplace. Mengintegrasikan pembersihan data dengan Python dan visualisasi di Looker Studio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="img/project2.png" class="card-img-top" alt="Sentiment Project" />
+              <div class="card-body">
+                <h5 class="fw-bold">
+                  <a href="https://github.com/driins/data-portofolio/tree/main/projects/01-sentiment-analysis-pln-mobile-app" target="_blank" class="stretched-link text-decoration-none text-dark"> Sentiment Analysis: PLN Mobile Apps </a>
+                </h5>
+                <p class="card-text text-muted">Analisis sentimen terhadap 184.500+ ulasan Google Play Store. Mencakup proses scraping, pre-processing teks, EDA, hingga pelatihan model.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="img/project3.png" class="card-img-top" alt="OMyGot Project" />
+              <div class="card-body">
+                <h5 class="fw-bold"><a href="https://github.com/O-MyGot/O-MyGot-apps" target="_blank" class="stretched-link text-decoration-none text-dark"> O-MyGot AIoT for BSF Farming Assistant </a></h5>
+                <p class="card-text text-muted">Asisten budidaya maggot BSF berbasis Computer Vision (YOLOv9) untuk penghitungan larva otomatis, prediksi panen, dan monitoring lingkungan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="bg-light">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="fw-bold">About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-6 text-secondary">
+          <div class="col-md-5 mb-3">
+            <p>
+              Lulusan Sarjana Komputer dari Universitas Siliwangi dengan fokus mendalam pada <strong>Machine Learning</strong> dan <strong>Artificial Intelligence</strong>. Sebagai pemegang sertifikasi TensorFlow Developer, saya bersemangat
+              membangun solusi cerdas berbasis data.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p>
+              Pengalaman saya mencakup penerapan <strong>Computer Vision </strong> untuk sektor agrikultur, hingga analisis sentimen data ulasan. Selain teknis, saya juga aktif sebagai <strong>IT Educator</strong> untuk berbagi pengetahuan
+              di bidang teknologi terkini kepada generasi mendatang.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center p-4 border-top">
+      <p class="mb-0 text-secondary">&copy; 2026 <strong>Indri Windriasari</strong>. Made with <i class="bi bi-heart-fill text-danger"></i> in Tasikmalaya.</p>
+      <div class="mt-2">
+        <a href="https://www.linkedin.com/in/indriwindriasari/" class="text-secondary me-3"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/driins/" class="text-secondary"><i class="bi bi-github"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
