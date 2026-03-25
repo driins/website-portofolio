@@ -46,5 +46,5 @@ This website is built with a lightweight approach to ensure fast performance and
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/iari/portfolio-website.git](https://github.com/iari/portfolio-website.git)
+   git clone [https://github.com/driins/website-portofolio/.git](https://github.com/driins/website-portofolio/.git)
 2. Open index.html
